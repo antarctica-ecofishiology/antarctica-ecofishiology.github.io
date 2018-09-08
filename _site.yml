@@ -1,0 +1,14 @@
+name: "Fish Physiology in Antartica"
+output_dir: "."
+navbar: 
+  title: "Antartica Blog"
+  left:
+    - text: "Home"
+      href: about.html
+    - text: "Blog Posts"
+      href: posts.html
+  right:
+    - text: "Our Team"
+      href: team.html
+      
+      

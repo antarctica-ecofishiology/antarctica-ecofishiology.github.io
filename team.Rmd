@@ -7,5 +7,4 @@ output:
     theme: flatly
 ---
 
-
-##This page is about our site
+#Here are the team members 
