@@ -3,8 +3,6 @@ output_dir: "."
 navbar: 
   title: "Antartica Blog"
   left:
-    - text: "Home"
-      href: index.html
     - text: "Blog Posts"
       href: posts.html
     - text: "Research Updates"
@@ -14,5 +12,7 @@ navbar:
   right:
     - text: "Our Team"
       href: team.html
+    - text: "Home"
+      href: index.html
       
       

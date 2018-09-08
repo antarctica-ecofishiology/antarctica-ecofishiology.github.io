@@ -9,6 +9,6 @@ output:
 
 <br>
 
-##Research Updates
+## Research Updates
 
 ***

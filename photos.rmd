@@ -8,6 +8,6 @@ output:
 ---
 <br>
 
-##Antarctic Photo Album
+## Antarctic Photo Album
 
 ***

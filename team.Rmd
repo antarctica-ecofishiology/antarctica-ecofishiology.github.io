@@ -8,7 +8,7 @@ output:
 ---
 <br>
 
-##Expedition Team
+## Expedition Team
 
 ***
 
@@ -22,4 +22,4 @@ I am a fourth year in the Graduate Group in Ecology at UC Davis. My Ph.D. resear
 ***
 <br>
 
-##martha
+##martha   
