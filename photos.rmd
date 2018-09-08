@@ -6,15 +6,8 @@ output:
     toc_float: true
     theme: flatly
 ---
-
 <br>
 
-## Blog Posts
+##Antarctic Photo Album
 
 ***
-
-## Packing for Antarctica
-
-
-
-## Travelling to Antarctica

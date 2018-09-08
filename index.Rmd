@@ -7,5 +7,16 @@ output:
     theme: flatly
 ---
 
+<br>
 
-##This page is about our site 
+## Antarctic Expedition: B-207-M
+
+***
+
+## Welcome to the B-207-M expedition website!
+
+> We are exicted to welcome you to our expedition website. Here we will blog about life at McMurdo, the research we are conducting and post photos of the frozen landscape and fascinating animals we encounter. 
+
+***
+
+## Recent Posts!

@@ -7,6 +7,10 @@ navbar:
       href: index.html
     - text: "Blog Posts"
       href: posts.html
+    - text: "Research Updates"
+      href: research.html
+    - text: "Album"
+      href: photos.html
   right:
     - text: "Our Team"
       href: team.html
