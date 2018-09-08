@@ -4,7 +4,7 @@ navbar:
   title: "Antartica Blog"
   left:
     - text: "Home"
-      href: about.html
+      href: index.html
     - text: "Blog Posts"
       href: posts.html
   right:
