@@ -7,6 +7,8 @@ navbar:
       href: posts.html
     - text: "Research Updates"
       href: research.html
+    - text: "Antarctic Organisms"
+      href: animals.html
     - text: "Album"
       href: photos.html
   right:
