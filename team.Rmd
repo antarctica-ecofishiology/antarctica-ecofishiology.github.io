@@ -47,7 +47,7 @@ output:
 
 > As a 4th year undergraduate marine science major at UC Davis, fish physiology has constantly fascinated me. My primary research interest is to investigate the plasticity and physiological responses of fish to anthropogenic effects such as climate change, hydrologic modifications, and fishing practices. Understanding how vulnerable species will respond to current and projected conditions is critical to effectively mitigating stress. Because Antarctic fish have persisted in a relatively stable environment, studying how rapidly changing abiotic conditions impact a fish's physiology is of great importance to our understanding of this unique marine ecosystem.
 
-![](pictures/andrewpic.JPG)
+![](pictures/andrewpic.jpg)
 
 ***
 <br>
