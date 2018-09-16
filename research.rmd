@@ -12,3 +12,4 @@ output:
 ## Research Updates
 
 ***
+ > We'll update once we start researching!

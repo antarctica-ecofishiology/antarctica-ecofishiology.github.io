@@ -12,3 +12,5 @@ output:
 ## Antarctic Photo Album
 
 ***
+
+>We'll put some up once we arrive.
