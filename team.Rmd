@@ -55,13 +55,13 @@ output:
 
 ## **Contact Us**
 
-We can all be contacted by mail at:
+We can all be contacted by mail at:  
 
-Our Name
-PSC 769 Box 700
-APO AP 96599-9998
-
-Note: Packages must be sent before Oct. 15th to ensure arrival. Flatmail usually takes ~5-7 days to arrive from the U.S.
-
-Email:
+>*Our Name*  
+PSC 769 Box 700  
+APO AP 96599-9998  
+  
+Note: Packages must be sent before Oct. 15^th^ to ensure arrival. Flatmail usually takes ~5-7 days to arrive from the U.S.  
+  
+Email:  
 Ken W. Zillig: kwzillig<at>ucdavis.edu
