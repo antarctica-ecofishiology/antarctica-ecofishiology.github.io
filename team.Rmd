@@ -36,7 +36,9 @@ output:
 ## **Mandy J. Frazier**
 ### UC Davis, Animal Biology Graduate Group, Masters Student
 
-> INSERT MANDY'S BIO HERE
+> I am starting my second year of grad school in Dr. Todgham’s lab in the Animal Biology Graduate Group. My research interests lie in understanding how animals cope with anthropogenic stressors on the molecular, organismal, and ecological level. I am especially interested in polar and sub-polar species, because their adaptation to a stable, cold environment makes them particularly vulnerable to a warming climate. When I’m not studying the coolest fish out there, you can find me either climbing, doing yoga, or eating delicious food. I have always dreamt of researching Antarctic animals so I am thrilled to be joining team B-207 this field season! I’m looking forward to sharing our adventures with you all. 
+
+
 
 ![](pictures/mandypic.jpg)
 
@@ -64,4 +66,6 @@ APO AP 96599-9998
 Note: Packages must be sent before Oct. 15^th^ to ensure arrival. Flatmail usually takes ~5-7 days to arrive from the U.S.  
   
 Email:  
-Ken W. Zillig: kwzillig<at>ucdavis.edu
+Ken W. Zillig:     kwzillig (at) ucdavis.edu  
+Mandy J. Frazier:  ajfrazier (at) ucdavis.edu
+Andrew W. Naslund: awnaslund (at) ucdavis.edu  
