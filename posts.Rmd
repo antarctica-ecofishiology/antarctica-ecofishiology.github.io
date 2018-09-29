@@ -16,27 +16,135 @@ output:
 ## Packing for Antarctica
 
 > The requisite gear for Antarctica is quite varied. Here I have broken out my gear by type.
-> ~KZ
+> 
 
-### Clothes
+```{r echo = FALSE}
+library(knitr)
 
-Item | Number | Brand
------------- | ------------- | -------
-Lighweight Thermal Shirt | Cell 2
-Lghtweight Thermal Pants | Cell 4 
-Midweight Thermal Shirt  |
-Midweight Thermal Pants  |
-Fleece Pull Over Jacket  |
-Down Lightweight Coat    |
-Liner Socks              |
-Wool Socks               |
+clothes.table <- data.frame("Item" = "Lightweight Thermal Shirt", "Number" = c(6))
+clothes.table$Item <- as.character(clothes.table$Item)
+clothes.table <- rbind(clothes.table,list("Midweight Thermal Shirt", 3))
+clothes.table <- rbind(clothes.table,list("Heavyweight Thermal Shirt", 1))
+clothes.table <- rbind(clothes.table,list("Fleece Pullover", 1))
+clothes.table <- rbind(clothes.table,list("Knit Sweater Pullover", 1))
+clothes.table <- rbind(clothes.table,list("Down Puffy Coat", 2))
+clothes.table <- rbind(clothes.table,list("Down Vest", 1))
+clothes.table <- rbind(clothes.table,list("Sweatshirt", 1))
+clothes.table <- rbind(clothes.table,list("Lightweight Thermal Pants", 3))
+clothes.table <- rbind(clothes.table,list("Midweight Thermal Pants", 4))
+clothes.table <- rbind(clothes.table,list("Fleece Lined Work Pants", 2))
+clothes.table <- rbind(clothes.table,list("Jeans", 1))
+clothes.table <- rbind(clothes.table,list("Underwear", 14))
 
+
+clothes.table <- rbind(clothes.table,list("Windstopper Hat", 2))
+clothes.table <- rbind(clothes.table,list("Balaclava", 1))
+clothes.table <- rbind(clothes.table,list("Sheepskin Hat", 1))
+clothes.table <- rbind(clothes.table,list("Gloves", 1))
+
+clothes.table <- rbind(clothes.table,list("Liner Socks", 6))
+clothes.table <- rbind(clothes.table,list("Wool Socks", 7))
+
+clothes.table <- rbind(clothes.table,list("Socks", 2))
+clothes.table <- rbind(clothes.table,list("Approach Shoes", 1))
+clothes.table <- rbind(clothes.table,list("Flip-flops", 1))
+clothes.table <- rbind(clothes.table,list("Slippers", 1))
+clothes.table <- rbind(clothes.table,list("Sunglasses", 2))
+clothes.table <- rbind(clothes.table,list("Casio Watch", 1))
+
+clothes.table <- rbind(clothes.table,list("Sandals (for New Zealand)", 1))
+clothes.table <- rbind(clothes.table,list("Raincoat (for New Zealand)", 1))
+clothes.table <- rbind(clothes.table,list("T-Shirt (for New Zealand)", 2))
+clothes.table <- rbind(clothes.table,list("Shorts (for New Zealand)", 1))
+#clothes.table
+
+kable(clothes.table)
+
+gear.table <- data.frame("Item" = "Camera Related" , "Number" = 0 )
+gear.table$Item <- as.character(gear.table$Item)
+gear.table <- rbind(gear.table, list(" -- Cannon Rebel Ti6 DSLR", 1))
+gear.table <- rbind(gear.table, list(" -- Cannon 75-300mm Lens", 1))
+gear.table <- rbind(gear.table, list(" -- Cannon 18-55mm Lens", 1))
+gear.table <- rbind(gear.table, list(" -- Camera Batteries", 3))
+gear.table <- rbind(gear.table, list(" -- Bird Guide For Antarctica and New Zealand", 1))
+
+gear.table <- rbind(gear.table, list("Recreation", 0))
+gear.table <- rbind(gear.table, list(" -- Hiking Boots", 1))
+gear.table <- rbind(gear.table, list(" -- Daypack", 1))
+gear.table <- rbind(gear.table, list(" -- La Sportiva Muiras", 1))
+gear.table <- rbind(gear.table, list(" -- Climbing harness", 1))
+gear.table <- rbind(gear.table, list(" -- ATC", 1))
+gear.table <- rbind(gear.table, list("Art", 0))
+gear.table <- rbind(gear.table, list(" -- Watercolor and Paintbrushes (set)", 1))
+gear.table <- rbind(gear.table, list(" -- Micron Pens (set)", 1))
+gear.table <- rbind(gear.table, list(" -- Drawing Pencils (set)", 1))
+gear.table <- rbind(gear.table, list(" -- Sketchbook", 1))
+gear.table <- rbind(gear.table, list("Laboratory", 0))
+gear.table <- rbind(gear.table, list(" -- Leatherman", 1))
+gear.table <- rbind(gear.table, list(" -- Little Green Notebook", 1))
+gear.table <- rbind(gear.table, list(" -- Lab Notebook", 2))
+
+gear.table <- rbind(gear.table, list("Tech", 0))
+gear.table <- rbind(gear.table, list(" -- Dell XPS 15 and charger", 1))
+gear.table <- rbind(gear.table, list(" -- USB Charging Adapter", 2))
+gear.table <- rbind(gear.table, list(" -- iPhone", 1))
+gear.table <- rbind(gear.table, list(" -- Kindle Fire", 1))
+gear.table <- rbind(gear.table, list(" -- External Harddrive", 1))
+gear.table <- rbind(gear.table, list(" -- Headphones", 1))
+gear.table <- rbind(gear.table, list(" -- PC Gaming Controller", 1))
+
+gear.table <- rbind(gear.table, list("REI 34 Big Haul Rolling Suitcase" , 1))
+gear.table <- rbind(gear.table, list("Black Diamond Demon Duffel", 1))
+gear.table <- rbind(gear.table, list("Laptop Backpack", 1))
+
+#gear.table
+
+kable(gear.table)
+
+other.table <- data.frame("Item" = "Toiletries" , "Number" = 0 )
+other.table$Item <- as.character(other.table$Item)
+other.table <- rbind(other.table, list(" -- Shampoo", 1))
+other.table <- rbind(other.table, list(" -- Contact Solution", 1))
+other.table <- rbind(other.table, list(" -- Contacts (pairs)", 6))
+other.table <- rbind(other.table, list(" -- Body Wash", 1))
+other.table <- rbind(other.table, list(" -- Sunscreen", 2))
+
+other.table <- rbind(other.table, list("Other", 0))
+other.table <- rbind(other.table, list(" -- Envelopes", 100))
+other.table <- rbind(other.table, list(" -- Pens", 10))
+other.table <- rbind(other.table, list(" -- Stamps", 60))
+other.table <- rbind(other.table, list(" -- Stationary Notebook", 1))
+other.table <- rbind(other.table, list(" -- Tupperware", 1))
+
+kable(other.table)
+
+
+# Add this list once i get stuff from USAP in Cristchurch
+ECW.table <- data.frame("Item" = "Big Red" , "Number" = 1 )
+ECW.table$Item <- as.character(ECW.table$Item)
+ECW.table <- rbind(ECW.table, list("Bunny Boots", 1))
+ECW.table <- rbind(ECW.table, list("Windpants", 1))
+ECW.table <- rbind(ECW.table, list("Fleece Jacket", 1))
+ECW.table <- rbind(ECW.table, list("Hat", 1))
+ECW.table <- rbind(ECW.table, list("Gloves", 1))
+ECW.table <- rbind(ECW.table, list("Goggles", 1))
+ECW.table <- rbind(ECW.table, list("Neck Gaiter", 1))
+ECW.table <- rbind(ECW.table, list("", 1))
+
+
+
+```
 
 ***
-## Travelling to Antarctica
-#### 9.15.2018
-> As you may expect, getting to Antarctica is a multiple day event. Our team will leave from San Francisco, CA on September 29th 2018 on route to Christchurch, by way of Auckland New Zealand. Once in Christchurch, we will have a day or two in which to receive our extreme cold weather gear (ECW) as well as any outstanding vaccinations and preliminary training. Christchurch is one of a few cities in the world that routes to Antarctica and is the specific point of entry for people traveling to McMurdo on the Ross Sea. Currently we are scheduled to leave for Antarctica on the second flight of the season (approx. Oct 3rd)
 
->The trip down to McMurdo is weather dependent, and will only depart if we can land safely. Should a storm develop while we are in the air the plane is equipped to conduct a “boomerang” where it will turn around without landing and fly us back to Christchurch. All of this is done aboard an U.S. C-17 or LC-130 Cargo Plane.  
+
+
+
+
+## Travelling to Antarctica
+#### *9.15.2018 - Ken Zillig*
+As you may expect, getting to Antarctica is a multiple day event. Our team will leave from San Francisco, CA on September 29th 2018 on route to Christchurch, by way of Auckland New Zealand. Once in Christchurch, we will have a day or two in which to receive our extreme cold weather gear (ECW) as well as any outstanding vaccinations and preliminary training. Christchurch is one of a few cities in the world that routes to Antarctica and is the specific point of entry for people traveling to McMurdo on the Ross Sea. Currently we are scheduled to leave for Antarctica on the second flight of the season (approx. Oct 3rd)
+<br>
+The trip down to McMurdo is weather dependent, and will only depart if we can land safely. Should a storm develop while we are in the air the plane is equipped to conduct a “boomerang” where it will turn around without landing and fly us back to Christchurch. All of this is done aboard an U.S. C-17 or LC-130 Cargo Plane.  
 
 ***

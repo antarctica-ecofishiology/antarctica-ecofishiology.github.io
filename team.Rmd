@@ -17,6 +17,7 @@ output:
 
 >I am an environmental physiologist with an interest in understanding the molecular, biochemical and physiological mechanisms that underlie an animal's capacity to cope with environmental change.  I am fascinated by the diversity of physiological specializations (or strategies) used by animals to tolerate particular habitats that others would find very challenging.  This interest has led my research to investigate how an animal's physiology and environment interact to structure organismal stress tolerance.  My current research program has an eye towards global climate change and addresses the general question of whether contemporary animals have the physiological flexibility necessary to buffer the unprecedented rates of environmental change, specifically their response to changes in multiple environmental variables. My research focuses mainly on aquatic organisms that are distributed along the Cal>ifornia coast and estuaries (e.g. limpets, sea urchins, crabs, oysters and intertidal fishes), but extends to Antarctic fishes and aquaculture species.
 
+  
 ![](pictures/annepic.jpg)
 
 ***
@@ -26,6 +27,7 @@ output:
 ### UC Davis, Graduate Group in Ecology, Ph.D. Candidate
 
 > I am a fourth year in the Graduate Group in Ecology at UC Davis. My Ph.D. research revoles around interpopulation variation in Chinook salmon and how differences in the thermal biology between populations can contribute to conservation solutions. Generally, my work focuses on the role of temperature in structuring the physiology of fishes and subsequently their ecology. I especially intersted in species of conservation and commerical interest and improving the sustainability of fisheries resources.
+>The dog's name is Indiana, he unfortunatly can't join us in the Antarctic.
 
 
 ![](pictures/kenpic.jpg)
@@ -66,6 +68,6 @@ APO AP 96599-9998
 Note: Packages must be sent before Oct. 15^th^ to ensure arrival. Flatmail usually takes ~5-7 days to arrive from the U.S.  
   
 Email:  
-Ken W. Zillig:     kwzillig (at) ucdavis.edu  
-Mandy J. Frazier:  ajfrazier (at) ucdavis.edu  
+Ken W. Zillig: kwzillig (at) ucdavis.edu  
+Mandy J. Frazier: ajfrazier (at) ucdavis.edu  
 Andrew W. Naslund: awnaslund (at) ucdavis.edu  

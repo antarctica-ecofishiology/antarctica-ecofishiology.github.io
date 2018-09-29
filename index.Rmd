@@ -23,9 +23,31 @@ output:
 
 # Recent Posts!
 
-## Travelling to Antarctica - 9.15.2018
-> As you may expect, getting to Antarctica is a multiple day event. Our team will leave from San Francisco, CA on September 29th 2018 on route to Christchurch, by way of Auckland New Zealand. Once in Christchurch, we will have a day or two in which to receive our extreme cold weather gear (ECW) as well as any outstanding vaccinations and preliminary training. Christchurch is one of a few cities in the world that routes to Antarctica and is the specific point of entry for people traveling to McMurdo on the Ross Sea. Currently we are scheduled to leave for Antarctica on the second flight of the season (approx. Oct 3rd)
+***
+## What is Our Research?
+####  *9.29.18 ~ Ken Zillig*
+The climate is changing. Anthropogenic uses of fossil fuels have produced carbon emissions that have increased the insulating capacity of the atmosphere. In essence wrapping the planet in a sweater that traps heat near the surface. These changes are having large influences around the globe and are making themselves more and more apparent, such as warmer winters, hotter summers, stronger fires and irregular weather patterns. However, less apparent is the effect that CO~2~ is having on the oceans.  
+<br>
+In the ocean, CO~2~ has two effects. One is the increasing of ocean surface temperatures similar to increasing surface temperatures elsewhere (AKA climate change). The other effect is more difficult to observe. CO~2~ is dissolving into the oceans and turning the ocean more acidic (AKA ocean acidification). This change is slight but can have profound impacts on sea life.  
+<br>
+The foundation of the oceans food web is made of tiny, microscopic organisms that make protective shells and armor from calcium carbonate. Calcium carbonate is similar to baking soda and like baking soda, it reacts with acid. Think of the vinegar and baking soda volcanos common at science fairs. While not as visually dramatic as the kitchen counter volcano, increasing ocean acidity makes it much more difficult for the tiny microorganisms of the ocean to build their calcium carbonate skeletons. This in turn reduces the amount of food produced at the bottom of the ocean food-web. Ocean acidification and rising temperatures has many other effects throughout the ocean. From challenging coral reefs (made of calcium carbonate and sensitive to temperature) to disrupting the brain chemistry of fish. Our research is seeking to explore how these two facets of carbon pollution will influence the physiology and ecology of Antarctic fishes.  
+<br>
+The fish of the Antarctic (our focal species) live in one of the most extreme and inhospitable places on earth. However, despite these challenges the day to day, year to year existence of these organisms is incredibly stable. The water is very cold, but the temperature hardly ever changes. The surface is routinely covered in a thick sheet of ice, and as such the bottom has remained isolated. The extended environmental stability has allowed Antarctic organisms to become habitat specialists, trading traits applicable to variable environments for those the promote living in Antarctica and nowhere else. Climate change and ocean acidification are expected to disrupt the environmental stability and the effects may be most pronounced in organisms with very specialized biology. Our research is to understand how these organisms may adapt or respond so that we may anticipate the biological and ecological changes that are coming to Antarctica.  
+<br>
+We are conducting several experiments, but they all stem from a few core treatments that we will be applying to Antarctic fish brought to the lab. Simply put we will expose fish to simulated environmental conditions representing present and future climate conditions. Fish will be exposed to two temperatures and three CO~2~ levels. Fish will be captured from the wild and placed within tanks with each tank having a different combination of temperature and CO~2~ treatments. Once exposed we will begin tracking how the behavior and physiology of fish exposed to different treatment changes over time.  
+<br>
+We hope that our research will help inform our scientific understanding of how increasing CO~2~ will affect Antarctic fish, as well as fish more generally. Our work is just a piece in a greater understanding of how CO~2~ pollution will impact ocean biology with implications for the Antarctic, commercial fishing and conservation.  
 
->The trip down to McMurdo is weather dependent, and will only depart if we can land safely. Should a storm develop while we are in the air the plane is equipped to conduct a “boomerang” where it will turn around without landing and fly us back to Christchurch. All of this is done aboard an U.S. C-17 or LC-130 Cargo Plane.  
+
+***
+
+
+
+
+## Travelling to Antarctica
+#### *9.15.2018 - Ken Zillig*
+As you may expect, getting to Antarctica is a multiple day event. Our team will leave from San Francisco, CA on September 29th 2018 on route to Christchurch, by way of Auckland New Zealand. Once in Christchurch, we will have a day or two in which to receive our extreme cold weather gear (ECW) as well as any outstanding vaccinations and preliminary training. Christchurch is one of a few cities in the world that routes to Antarctica and is the specific point of entry for people traveling to McMurdo on the Ross Sea. Currently we are scheduled to leave for Antarctica on the second flight of the season (approx. Oct 3rd)
+<br>
+The trip down to McMurdo is weather dependent, and will only depart if we can land safely. Should a storm develop while we are in the air the plane is equipped to conduct a “boomerang” where it will turn around without landing and fly us back to Christchurch. All of this is done aboard an U.S. C-17 or LC-130 Cargo Plane.  
 
 ***
