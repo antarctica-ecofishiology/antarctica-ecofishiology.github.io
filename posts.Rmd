@@ -107,7 +107,7 @@ other.table <- rbind(other.table, list(" -- Shampoo", 1))
 other.table <- rbind(other.table, list(" -- Contact Solution", 1))
 other.table <- rbind(other.table, list(" -- Contacts (pairs)", 6))
 other.table <- rbind(other.table, list(" -- Body Wash", 1))
-other.table <- rbind(other.table, list(" -- Sunscreen", 2))
+other.table <- rbind(other.table, list(" -- Sunscreen", 1))
 
 other.table <- rbind(other.table, list("Other", 0))
 other.table <- rbind(other.table, list(" -- Envelopes", 100))
