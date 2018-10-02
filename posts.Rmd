@@ -13,6 +13,52 @@ output:
 
 ***
 
+## Delayed - updated
+#### *10.2.2018 - Ken Zillig*  
+
+Good news / bad news today for the deployment. Good news; we were prioritized to be on the second flight down to the ice of the summer season. Bad news; there is persistent rough weather down at McMurdo. The station has its own [weather classification system](https://en.wikipedia.org/wiki/Antarctica_Weather_Danger_Classification), and for a couple hours this week it has been at “Class 1” which includes one, if not more of the following:  
+
+* Visibility less than 30 feet
+* Wind speed over 63 mph
+* Air temp or wind-chill below -100°F
+
+Needless to say, they won’t be landing a plane in such conditions and as such we’ll have to wait until conditions improve. Currently we are scheduled to fly out on Oct. ~~4th~~ 5th. 
+
+But the day was not wasted! Today we received our ECW (extreme cold weather) gear. This gear is provided to us by the Antarctic program and is mandatory to be carried alongside you whenever you leave McMurdo Station to head into the field. Some notable pieces are “big red” the large down parka, and the “bunny boots” which have a valved air bladder to insulate you from the ground. The table below gives the full list of ECW gear as well as some pictures.
+
+Today we also received some preliminary training on operating vehicles, waste disposal and fire safety. Along with a flu shot, given enmass by lining us all up and one-by-one injecting us with a vaccine dose. 
+
+```{r echo = FALSE}
+library(knitr)
+# Add this list once i get stuff from USAP in Cristchurch
+ECW.table <- data.frame("Item" = "Big Red" , "Number" = 1 )
+ECW.table$Item <- as.character(ECW.table$Item)
+ECW.table <- rbind(ECW.table, list("Bunny Boots", 1))
+ECW.table <- rbind(ECW.table, list("Windpants", 1))
+ECW.table <- rbind(ECW.table, list("Fleece Jacket", 1))
+ECW.table <- rbind(ECW.table, list("Fleece Pants", 1))
+ECW.table <- rbind(ECW.table, list("Hat", 1))
+ECW.table <- rbind(ECW.table, list("Neck Gaiter", 1))
+ECW.table <- rbind(ECW.table, list("Balaclava", 1))
+ECW.table <- rbind(ECW.table, list("Gloves", 1))
+ECW.table <- rbind(ECW.table, list("Mittens", 1))
+ECW.table <- rbind(ECW.table, list("Glove Liners", 2))
+ECW.table <- rbind(ECW.table, list("Goggles", 1))
+
+
+kable(ECW.table)
+```
+
+***
+  
+![](pictures/ECW_ken_3.JPG) 
+
+<br>
+
+![](pictures/ECW_ken_1.JPG)
+<br>
+***
+
 ## Packing for Antarctica
 
 > The requisite gear for Antarctica is quite varied. Here I have broken out my gear by type.
