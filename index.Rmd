@@ -58,11 +58,11 @@ kable(ECW.table)
 
 ***
   
-![](pictures/ECW_ken_3.JPG) 
+![](pictures/ECW_ken_1.JPG) 
 
 <br>
 
-![](pictures/ECW_ken_1.JPG)
+![](pictures/ECW_ken_3.JPG)
 
 <br>
 
