@@ -17,6 +17,10 @@ output:
 
 We are excited to welcome you to our expedition website. Here we will blog about life at McMurdo Station, the research we are conducting and post photos of the frozen landscape and fascinating animals we encounter.
 
+***
+
+# Recent Posts!
+
 
 ***
 
@@ -66,9 +70,7 @@ kable(ECW.table)
 
 <br>
 
-***
 
-# Recent Posts!
 
 ***
 ## What is Our Research?
