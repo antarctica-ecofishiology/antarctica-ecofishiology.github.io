@@ -56,7 +56,9 @@ kable(ECW.table)
 <br>
 
 ![](pictures/ECW_ken_1.JPG)
+
 <br>
+
 ***
 
 ## Packing for Antarctica
