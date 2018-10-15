@@ -12,17 +12,37 @@ output:
 ## Blog Posts
 
 ***
+## Departure
+#### *10.15.2018 - Ken Zillig*
 
+Well it has been a long time coming, but all signs point to tomorrow (October 16th) to be our departure date. We will be on either the first or second flight (2 planes are leaving tomorrow) to the ice for the season. I have heard rumors that this is the longest delay they have ever had getting the first flights of the season to McMurdo. 
+
+Over the past two weeks we have made the most of our time in Christchurch. Andrew, Mandy and I have gotten out of the city and were able to enjoy some of the beautiful landscapes that New Zealand is known for. We also couldn't wait to see penguins so we tracked down some little blue penguins *Eudyptula minor* outside of Akaroa. Same goes for Great Spotted Kiwi Birds *Apteryx  haastii* which we visted at a nature reserve close to the airport. Being delayed in New Zealand is about as getting delayed gets, but we are eager to head south and get started on the research. 
+
+![](pictures/Akaroa_NZ.JPG) 
+
+<br>
+A view of Akaroa Harbor from the top of Lighthouse Road
+<br>
+
+
+![](pictures/LIPE_Flea's_Bay.JPG)
+
+<br>
+Little Blue Penguins at the Pohatu Marine Reserve
+<br>
+
+***
 ## Delayed - updated
 #### *10.2.2018 - Ken Zillig*  
 
-Good news / bad news today for the deployment. Good news; we were prioritized to be on the second flight down to the ice of the summer season. Bad news; there is persistent rough weather down at McMurdo. The station has its own [weather classification system](https://en.wikipedia.org/wiki/Antarctica_Weather_Danger_Classification), and for a couple hours this week it has been at “Class 1” which includes one, if not more of the following:  
+Good news / bad news today for the deployment. Good news; we were prioritized to be on the second flight down to the ice of the summer season. Bad news; there is persistent rough weather down at McMurdo. The station has its own [weather classification system](https://en.wikipedia.org/wiki/Antarctica_Weather_Danger_Classification), and for a couple hours this week it has been at “Condition 1” which includes one, if not more of the following:  
 
 * Visibility less than 30 feet
 * Wind speed over 63 mph
 * Air temp or wind-chill below -100°F
 
-Needless to say, they won’t be landing a plane in such conditions and as such we’ll have to wait until conditions improve. Currently we are scheduled to fly out on Oct. ~~4th~~ 5th. 
+Needless to say, they won’t be landing a plane in such conditions and as such we’ll have to wait until conditions improve. Currently we are scheduled to fly out on Oct. ~~3rd~~, ~~4th~~ ~~5th~~ ~~6th~~ ~~7-10th~~. 
 
 But the day was not wasted! Today we received our ECW (extreme cold weather) gear. This gear is provided to us by the Antarctic program and is mandatory to be carried alongside you whenever you leave McMurdo Station to head into the field. Some notable pieces are “big red” the large down parka, and the “bunny boots” which have a valved air bladder to insulate you from the ground. The table below gives the full list of ECW gear as well as some pictures.
 
@@ -51,13 +71,15 @@ kable(ECW.table)
 
 ***
   
-![](pictures/ECW_ken_3.JPG) 
+![](pictures/ECW_ken_1.JPG) 
 
 <br>
 
-![](pictures/ECW_ken_1.JPG)
+![](pictures/ECW_ken_3.JPG)
 
 <br>
+
+
 
 ***
 
