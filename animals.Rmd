@@ -16,7 +16,9 @@ output:
 ## **Our Study Species**
 ### *Trematomus bernacchii* ~ The Emerald Rock Cod
 
+
 ![](pictures/T.bernachii_1.jpg)
+
 <br>
 
 This is our primary species of interest. This photograph is of an adult, while our research will primarily focus on larval and juvenile life stages. *T. bernachii* (or as well affectionately call them "bernies") is one of the dominant fish species in this region and is an important part of the food-web both as a predator of other fish (include it's own species) as well as a food item for seals and the Antarctic toothfish *Dissostichus mawsoni*. 
@@ -25,6 +27,7 @@ This is our primary species of interest. This photograph is of an adult, while o
 
 
 ### *Trematomus pennellii* Sharp-spined notothen Trematomus 
+
 ![](pictures/T.pennellii_1.jpg)
 <br>
 
@@ -42,7 +45,9 @@ The Diver's went out the other day and brought back things for the touch tank an
 
 >*Cuthona crinita* Nudibranch
 
+
 ![](pictures/nudibranch_1.jpg)
+
 
 ***
 

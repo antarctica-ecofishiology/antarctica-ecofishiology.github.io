@@ -16,6 +16,7 @@ output:
 
 We made it! We arrived to Antarctica on the 17th of October to a sunny, clear and windy day. The temperature at the time was -34°C (-30°F). We travelled from the Pheonix Airfield to McMurdo Station via Ivan the Terra Bus. Since we have settled into our dorm rooms and begun to grow accoustomed to the constant day light. We have spent several long days in the lab working hard to get the experimental system set-up so that we can go out on the sea ice and collect our fish (pictures in the 'Antarctic Organisms' tab). We have recieved training in how to use GPS, drive a PistenBully, navigate sea ice and determine if cracks are safe to cross and field survival. So far the weather has been relatively pleasant and we hope that will continue.
 
+
 ![](pictures/Terra_bus_1.jpg)
 
 ###### Andrew and Ivan
@@ -37,9 +38,10 @@ Over the past two weeks we have made the most of our time in Christchurch. Andre
 
 ***
 
-![](pictures/LIPE_Flea's_Bay.jpg)
 
-###### Little Blue Penguins at the Pohatu Marine Reserve
+![](pictures/LIPE_Flea's_Bay.jpg)
+ 
+###### Little blue penguins at the Pohatu Marine Reserve
 
 ***
 
