@@ -72,9 +72,7 @@ h6 {
 </style>
 
 
-</head>
 
-<body>
 
 <style type = "text/css">
 .main-container {
@@ -93,8 +91,14 @@ img {
 .tabbed-pane {
   padding-top: 12px;
 }
+.html-widget {
+  margin-bottom: 20px;
+}
 button.code-folding-btn:focus {
   outline: none;
+}
+summary {
+  display: list-item;
 }
 </style>
 
@@ -110,7 +114,6 @@ body {
   padding-top: 65px;
   margin-top: -65px;
 }
-
 .section h2 {
   padding-top: 65px;
   margin-top: -65px;
@@ -130,6 +133,43 @@ body {
 .section h6 {
   padding-top: 65px;
   margin-top: -65px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
 }
 </style>
 
@@ -151,18 +191,75 @@ $(document).ready(function () {
 });
 </script>
 
-
-<div class="container-fluid main-container">
-
 <!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
 <script>
 $(document).ready(function () {
   window.buildTabsets("TOC");
 });
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
 </script>
 
 <!-- code folding -->
-
 
 
 
@@ -251,6 +348,16 @@ div.tocify {
 
 </style>
 
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
 <!-- setup 3col/9col grid for toc_float and main content  -->
 <div class="row-fluid">
 <div class="col-xs-12 col-sm-4 col-md-3">
@@ -321,14 +428,117 @@ div.tocify {
 
 </div>
 <p><br></p>
-<p>This is our primary species of interest. This photograph is of an adult, while our research will primarily focus on larval and juvenile life stages. <em>T. bernachii</em> (or as well affectionately call them “bernies”) is one of the dominant fish species in this region and is an important part of the food-web both as a predator of other fish (include it’s own species) as well as a food item for seals and the Antarctic toothfish <em>Dissostichus mawsoni</em>.</p>
+<p><img src="pictures/t.bernacchii%20juv.jpg" /> ##### A juvenile bernie</p>
+<p><br></p>
+<p>This is our primary species of interest. This photograph is of an adult, while our research will primarily focus on larval and juvenile life stages. <em>T. bernachii</em> (or as well affectionately call them “bernies”) is one of the dominant fish species in this region and is an important part of the food-web both as a predator of other fish (include its own species) as well as a food item for seals and the Antarctic toothfish <em>Dissostichus mawsoni</em>.</p>
 <hr />
 </div>
+</div>
+<div id="fish" class="section level2">
+<h2><strong>Fish</strong></h2>
 <div id="trematomus-pennellii-sharp-spined-notothen-trematomus" class="section level3">
 <h3><em>Trematomus pennellii</em> Sharp-spined notothen Trematomus</h3>
 <p><img src="pictures/T.pennellii_1.jpg" /> <br></p>
+<p><img src="pictures/penellii_2.jpg" /> <br></p>
 <p>Another of the species we will be encountering. We hope to conduct research identifying the preferred temperature or temperatures of multiple antarctic fish species so that we may compare amongst species and look for differences. <em>T. pennellii</em> is a very close relative to <em>T. bernachii</em> and therefore any differences in thermal preference may underscore important differences in how these two species interact with their environment.</p>
 <hr />
+</div>
+<div id="pagothenia-borchgrevinki-the-bald-notothen" class="section level3">
+<h3><em>Pagothenia borchgrevinki</em> The Bald Notothen</h3>
+<p><img src="pictures/bork.jpg" /> <br> <em>Pagothenia borchgrevinki</em>, affectionately referred to as ‘Borks’ are one of the most common species of fish out here. They are somewhat unique in that they are found very close to, if not immediately, underneath the sea ice. They grow to be about a foot long, and are a mottled black and silver.</p>
+<p>We conducted some experiments on juvenile borks which gather in large schools that seem to hang underneath the ice. The borks, proved highly trainable and associated the presence of a human to food and would all gather at the surface eagerly awaiting dinner time.</p>
+<hr />
+</div>
+<div id="trematomus-nicolai-spotted-notothen" class="section level3">
+<h3><em>Trematomus nicolai</em> Spotted notothen</h3>
+<p><img src="pictures/nicolai.jpg" /> <br></p>
+<hr />
+</div>
+<div id="trematomus-newnesi-dusky-notothen" class="section level3">
+<h3><em>Trematomus newnesi</em> Dusky notothen</h3>
+<p><img src="pictures/newnesi.jpg" /> <br></p>
+<hr />
+</div>
+<div id="trematomus-hansoni-striped-notothen" class="section level3">
+<h3><em>Trematomus hansoni</em> Striped notothen</h3>
+<p><img src="pictures/hansoni.jpg" /> <br></p>
+<hr />
+</div>
+<div id="trematomus-loennbergii-deepwater-notothen" class="section level3">
+<h3><em>Trematomus loennbergii</em> Deepwater notothen</h3>
+<p><img src="pictures/loennbergii.jpg" /> #####These fish are only found at depth and this one was caught in a trap at about 1200 feet down. <br></p>
+<hr />
+</div>
+<div id="dissostichus-mawsoni-antarctic-toothfish" class="section level3">
+<h3><em>Dissostichus mawsoni</em> Antarctic Toothfish</h3>
+<p><img src="pictures/mawsoni%20with%20hand.jpg" /> <br></p>
+<p>All hail the Antarctic Toothfish, or as we call it, the mawsoni (Maw-Son-I, cause that’s way cooler and technically its name). It’s a close relative of the Patagonia Toothfish, AKA Chilean seabass. Widespread desire for Chilean Seabass has depleated the Patagonian Toothfish so fishing fleets have begun to fish the Southern Ocean, including the Ross Sea for the mawsoni as a substitute. This has led to an unsustainable fishing practice for this awesome fish.</p>
+<p><img src="pictures/mawsoni%20skull.jpg" /> ##### The skull of a mawsoni. Reconstructed by Macgregor Willis. <br></p>
+<p>Here is some of what we do know. They are the largest fish species in the Southern Ocean (growing up to 6 feet long and well over 100lbs) and the dominant fish predator in the ecosystems down here. During the radiation of fish species around Antarctica, the mawsoni filled the niche of sharks. They are predated upon by Weddell seals (when juveniles) and killer whales when the ice is free. It is also thought that colossal squid may eat them as well. The Mawsoni will eat anything that can fit in its mouth and a large one, under the ice is an apex predator. If overfished, the loss of a top predatory would have large impacts on both the fish species on which it feeds, as well as the whale and seal populations which feed upon it. There is no understanding of where or when the mawsoni spawn or where the young larval fish hang out.</p>
+<p><img src="pictures/mawsoni%203.jpg" /> <br></p>
+<p>We were lucky enough to see some of these leviathans up close in the aquarium room, as one of the other research teams needed their blood to conduct some molecular experiments.</p>
+<hr />
+<p>Antarctica Sliverfish – Pleuragramma antarcticum</p>
+<p>The Antarctic silverfish is the only truly pelagic fish in Antarctic waters. It is widespread and numerous but little is known about it as it is nearly impossible to capture at McMurdo as we can’t trawl for it with the sea covered in ice. This one was found in the stomach of a mawsoni that was brought into the lab. These fish are a massive part of the Antarctic food chain, eaten by penguins, seals, whales, and apparently mawsoni.</p>
+<p><img src="pictures/antarctic%20silverfish.jpg" /> <br></p>
+<hr />
+</div>
+<div id="gymnodraco-acuticeps-the-naked-dragonfish" class="section level3">
+<h3><em>Gymnodraco acuticeps</em> The Naked Dragonfish</h3>
+<p><img src="pictures/dragonfish.jpg" /> <br></p>
+<p>This is a dragonfish, one a few species found throughout Antarctica. Dragonfish are remarkable as they will guard their eggs until they hatch. Which is made more impressive as their eggs take ~10 months to do so. To guard their eggs, they have a few very large point teeth on their large lower jaw to ward off would-be predators of their eggs. They can grow to be over a foot long.</p>
+<hr />
+</div>
+<div id="psilodraco-breviceps" class="section level3">
+<h3><em>Psilodraco breviceps</em></h3>
+</div>
+<div id="lycodichthys-dearborni-antarctic-eel-pout" class="section level3">
+<h3><em>Lycodichthys dearborni</em> Antarctic Eel Pout</h3>
+<p><img src="pictures/eelpout.jpg" /> <br></p>
+<hr />
+</div>
+</div>
+<div id="other-creatures-from-under-the-ice" class="section level2">
+<h2><strong>Other Creatures from Under the Ice</strong></h2>
+<p>The Diver’s went out the other day and brought back things for the touch tank and a photoshoot. Here are some of the jems.</p>
+<div id="cuthona-crinita-nudibranch" class="section level3">
+<h3><em>Cuthona crinita</em> Nudibranch</h3>
+<p><img src="pictures/nudibranch_1.jpg" /> <br></p>
+<hr />
+<p>A local nudibranch to the McMurdo Sound. Approximately 1.5 inches in length. <br></p>
+</div>
+<div id="pareledone-sp.-antarctic-octopus" class="section level3">
+<h3><em>Pareledone sp.</em> Antarctic Octopus</h3>
+<div class="figure">
+<img src="pictures/Octopus_1.jpg" />
+
+</div>
+<p>Everyone love’s an octopus. This one has been named Oscar by the Crary Lab Staff. It is being housed in a seperate enclosed tank as Octopus are known escape artists that will crawl out of their tanks or down drain pipes.</p>
+<hr />
+<p><br></p>
+</div>
+<div id="colossendeis-sp.-antarctic-sea-spider" class="section level3">
+<h3><em>Colossendeis sp.</em> Antarctic Sea Spider</h3>
+<div class="figure">
+<img src="pictures/sea_spider_1.jpg" />
+
+</div>
+<p>An example of Antarctc gigantism, these sea spiders can become unsually large. The one in this photo is 5&quot; across.</p>
+<hr />
+</div>
+<div id="eusirus-giganteus-eusirid-amphipid" class="section level3">
+<h3><em>Eusirus giganteus</em> Eusirid Amphipid</h3>
+<p>This little nightmare is an amphipod. One of many species of amphipods that live in Antarctic waters. This species is one of the largest around and is brightly colored pink and purple. They primarily scavenge and feed on other amphipods.</p>
+<p><img src="pictures/amphipod.jpg" /> <Br></p>
+<hr />
+</div>
+<div id="glyptonotus-antarcticus-giant-isopod" class="section level3">
+<h3><em>Glyptonotus antarcticus</em> Giant isopod</h3>
+<p>Serves ecologically as crabs or lobsters, ominovrous and at times cannibalistic. <img src="pictures/isopod%20with%20lego.jpg" /> <br></p>
+<hr />
+</div>
+<div id="section" class="section level3">
+<h3></h3>
 </div>
 </div>
 <div id="birds" class="section level2">
@@ -363,40 +573,8 @@ div.tocify {
 </div>
 <hr />
 <p>Aside from the humans there is only one mammal out here. The Weddell Seal. They are about 10ft long and will be pupping throughout the time we are hear. Keep posted for pictures of baby seals.</p>
-</div>
-</div>
-<div id="other-creatures-from-under-the-ice" class="section level2">
-<h2><strong>Other Creatures from Under the Ice</strong></h2>
-<p>The Diver’s went out the other day and brought back things for the touch tank and a photoshoot. Here are some of the jems.</p>
-<blockquote>
-<p><em>Cuthona crinita</em> Nudibranch</p>
-</blockquote>
-<div class="figure">
-<img src="pictures/nudibranch_1.jpg" />
-
-</div>
-<hr />
-<p>A local nudibranch to the McMurdo Sound. Approximately 1.5 inches in length. <br></p>
-<blockquote>
-<p><em>Pareledone sp.</em> Antarctic Octopus</p>
-</blockquote>
-<div class="figure">
-<img src="pictures/Octopus_1.jpg" />
-
-</div>
-<p>Everyone love’s an octopus. This one has been named Oscar by the Crary Lab Staff. It is being housed in a seperate enclosed tank as Octopus are known escape artists that will crawl out of their tanks or down drain pipes.</p>
-<hr />
 <p><br></p>
-<blockquote>
-<p><em>Colossendeis sp.</em> Antarctic Sea Spider</p>
-</blockquote>
-<div class="figure">
-<img src="pictures/sea_spider_1.jpg" />
-
 </div>
-<p>An example of Antarctc gigantism, these sea spiders can become unsually large. The one in this photo is 5&quot; across.</p>
-<hr />
-<p><br></p>
 </div>
 </div>
 
