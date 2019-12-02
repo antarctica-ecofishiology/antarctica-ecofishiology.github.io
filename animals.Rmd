@@ -14,7 +14,7 @@ output:
 
 
 ## **Our Study Species**
-### *Trematomus bernacchii* ~ The Emerald Rock Cod
+### *Trematomus bernacchii* - The Emerald Rock Cod
 
 
 ![](pictures/T.bernachii_1.jpg)
@@ -34,7 +34,7 @@ This is our primary species of interest. This photograph is of an adult, while o
 
 ## **Fish**
 
-### *Trematomus pennellii* Sharp-spined notothen Trematomus 
+### *Trematomus pennellii* - Sharp-spined notothen Trematomus 
 
 ![](pictures/T.pennellii_1.jpg)
 <br>
@@ -55,33 +55,33 @@ Another of the species we will be encountering. We hope to conduct research iden
 We conducted some experiments on juvenile borks which gather in large schools that seem to hang underneath the ice. The borks, proved highly trainable and associated the presence of a human to food and would all gather at the surface eagerly awaiting dinner time. 
 
 ***
-### *Trematomus nicolai* Spotted notothen
+### *Trematomus nicolai* - Spotted notothen
 ![](pictures/nicolai.jpg)
 <br>
 
 ***
 
-### *Trematomus newnesi* Dusky notothen
+### *Trematomus newnesi* - Dusky notothen
 ![](pictures/newnesi.jpg)
 <br>
 
 ***
 
-### *Trematomus hansoni* Striped notothen
+### *Trematomus hansoni* - Striped notothen
 ![](pictures/hansoni.jpg)
 <br>
 
 
 ***
 
-### *Trematomus loennbergii* Deepwater notothen
+### *Trematomus loennbergii* - Deepwater notothen
 ![](pictures/loennbergii.jpg)
 #####These fish are only found at depth and this one was caught in a trap at about 1200 feet down. 
 <br>
 
 ***
 
-### *Dissostichus mawsoni* Antarctic Toothfish 
+### *Dissostichus mawsoni* - Antarctic Toothfish 
 
 ![](pictures/mawsoni with hand.jpg)
 <br>
@@ -101,16 +101,16 @@ We were lucky enough to see some of these leviathans up close in the aquarium ro
 
 ***
 
-Antarctica Sliverfish – Pleuragramma antarcticum
+### *Antarctica Sliverfish* – Pleuragramma antarcticum
 
-The Antarctic silverfish is the only truly pelagic fish in Antarctic waters. It is widespread and numerous but little is known about it as it is nearly impossible to capture at McMurdo as we can’t trawl for it with the sea covered in ice. This one was found in the stomach of a mawsoni that was brought into the lab. These fish are a massive part of the Antarctic food chain, eaten by penguins, seals, whales, and apparently mawsoni. 
+The Antarctic silverfish is the only truly pelagic fish in Antarctic waters. It is widespread and numerous but little is known about it. At McMurdo there are no boats, and catching it when the sea is covered in ice has not yet been attempted. This one was found in the stomach of a mawsoni that was brought into the lab. These fish are a massive part of the Antarctic food chain, eaten by penguins, seals, whales, and apparently mawsoni. 
 
 ![](pictures/antarctic silverfish.jpg)
 <br>
 
 ***
 
-### *Gymnodraco acuticeps* The Naked Dragonfish
+### *Gymnodraco acuticeps* - The Naked Dragonfish
 ![](pictures/dragonfish.jpg)
 <br>
 
@@ -121,9 +121,20 @@ This is a dragonfish, one a few species found throughout Antarctica. Dragonfish 
 ### *Psilodraco breviceps* 
 
 
-### *Lycodichthys dearborni* Antarctic Eel Pout
+### *Lycodichthys dearborni* - Antarctic Eel Pout
 ![](pictures/eelpout.jpg)
 <br>
+
+### *Paraliparis devriesi* - Snailfish
+
+This little guy was pulled up from the depths. It was named after one Art Devries, a legend in Antarctic fish physiology. We were lucky enough to meet both the snailfish and its namesake during our time in Antarctica.
+
+![](pictures/snailfish2.jpg)
+
+***
+
+![](pictures/snailfish1.jpg)
+
 
 ***
 
@@ -131,7 +142,7 @@ This is a dragonfish, one a few species found throughout Antarctica. Dragonfish 
 
 The Diver's went out the other day and brought back things for the touch tank and a photoshoot. Here are some of the jems.
 
-###*Cuthona crinita* Nudibranch
+### *Cuthona crinita* - Nudibranch
 
 
 ![](pictures/nudibranch_1.jpg)
@@ -142,7 +153,7 @@ The Diver's went out the other day and brought back things for the touch tank an
 A local nudibranch to the McMurdo Sound. Approximately 1.5 inches in length. 
  <br>
 
-###*Pareledone sp.* Antarctic Octopus
+### *Pareledone sp.* - Antarctic Octopus
 
 ![](pictures/Octopus_1.jpg)
 
@@ -152,7 +163,7 @@ Everyone love's an octopus. This one has been named Oscar by the Crary Lab Staff
 
 <br>
 
-###*Colossendeis sp.* Antarctic Sea Spider
+### *Colossendeis sp.* - Antarctic Sea Spider
 
 ![](pictures/sea_spider_1.jpg)
 
@@ -160,7 +171,7 @@ An example of Antarctc gigantism, these sea spiders can become unsually large. T
 
 ***
 
-### *Eusirus giganteus* Eusirid Amphipid
+### *Eusirus giganteus* - Eusirid Amphipid
 
 This little nightmare is an amphipod. One of many species of amphipods that live in Antarctic waters. This species is one of the largest around and is brightly colored pink and purple. They primarily scavenge and feed on other amphipods. 
 
@@ -169,8 +180,8 @@ This little nightmare is an amphipod. One of many species of amphipods that live
 
 ***
 
-### *Glyptonotus antarcticus* Giant isopod
-Serves ecologically as crabs or lobsters, ominovrous and at times cannibalistic. 
+### *Glyptonotus antarcticus* - Giant isopod
+Serves ecologically as crabs or lobsters, ominovrous and at times cannibalistic. Lego minifigure for scale.
 ![](pictures/isopod with lego.jpg)
 <br>
 
@@ -180,7 +191,7 @@ Serves ecologically as crabs or lobsters, ominovrous and at times cannibalistic.
 
 ## **Birds**
 
-###*Aptenodytes forsteri* Emperor Penguin
+### *Aptenodytes forsteri* - Emperor Penguin
 
 The classic symbol of Antarctica. The Emperor Penguin is the largest of all the Penguins and the only bird to breed south of the Antarctic circle during winter.
 
@@ -195,19 +206,44 @@ The classic symbol of Antarctica. The Emperor Penguin is the largest of all the 
 ![](pictures/EMPE_1.jpg)
 
 
+### *Pygoscelis adeliae* - Adelie Penguin
+
+The other penguin resident to Ross Island is the smaller Adelie penguin. About the size and shape of a rugby ball. There is a colony of ~5000 Adelie Penguins at Cape Royds near Shackleton's Hut.
+
+![](pictures/EMP_ADE.jpg)
+Here a Adelie tags along with an Emperor as they made their way from the colony to the ice edge. 
+
+***
+
+![](pictures/ADPE_Cape_Royds_ANT_11.20.18.jpg)
+Here are several Adelie penguins at the colony. THe ones laying on theri sides are laying on their nests. The resident scientists said it was likely that some pairs may have laid an egg, but most were just maintaining their nesting territory. 
+
+
+***
+
+### *Stercorarius maccormicki* - South Polar Skua
+
+The skua was the last of the three 'common' (read "only") birds to be seen at Ross Island. Skuas are large, predatory, seabirds which target young penguin chicks or researchers carrying food across McMurdo.
+
+![](pictures/SKUA 1.jpg)
+***
+
+![](pictures/SKUA 2.jpg)
+
+
+These pictures were taken of a Skua on the Hut Point Trail outside of McMurdo Station. 
 ***
 
 
 ## **Mammals**
 
-###*Leptonychotes weddellii* Weddell Seal
+### *Leptonychotes weddellii* - Weddell Seal
 
 ![](pictures/Weddell Seal_1.jpg)
 
 ***
 
-Aside from the humans there is only one mammal out here. The Weddell Seal. They are about 10ft long and will be pupping throughout the time we are hear. Keep posted for pictures of baby seals.
-
+Aside from the humans there is only one mammal out here. The Weddell Seal. They are about 10ft long and will be pupping throughout the time we are hear. 
 <br>
 
 
