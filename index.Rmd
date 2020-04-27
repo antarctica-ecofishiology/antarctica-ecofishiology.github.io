@@ -17,5 +17,7 @@ output:
 
 In the fall of 2018, I was lucky enough to join Dr. Anne Todghams B-207-M Antarctic research team. This blog contains pictures and research summeries of our time on the bottom of the world. 
 
+[Return to my non-Antarctic research](kenzillig.github.io)
+
 ![](pictures/bottomofthworld.jpg)
 
