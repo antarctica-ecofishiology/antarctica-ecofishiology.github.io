@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 
 <head>
 
 <meta charset="utf-8" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
 
-<title></title>
+<title>team.utf8</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -25,6 +25,17 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/anchor-sections-1.0/anchor-sections.css" rel="stylesheet" />
+<script src="site_libs/anchor-sections-1.0/anchor-sections.js"></script>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
 
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
@@ -72,9 +83,7 @@ h6 {
 </style>
 
 
-</head>
 
-<body>
 
 <style type = "text/css">
 .main-container {
@@ -88,7 +97,6 @@ code {
 }
 img {
   max-width:100%;
-  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -98,6 +106,9 @@ img {
 }
 button.code-folding-btn:focus {
   outline: none;
+}
+summary {
+  display: list-item;
 }
 </style>
 
@@ -113,7 +124,6 @@ body {
   padding-top: 65px;
   margin-top: -65px;
 }
-
 .section h2 {
   padding-top: 65px;
   margin-top: -65px;
@@ -133,6 +143,43 @@ body {
 .section h6 {
   padding-top: 65px;
   margin-top: -65px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
 }
 </style>
 
@@ -154,47 +201,66 @@ $(document).ready(function () {
 });
 </script>
 
-
-<div class="container-fluid main-container">
-
 <!-- tabsets -->
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-</script>
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
 
 <!-- code folding -->
 
 
-
-
-<script>
-$(document).ready(function ()  {
-
-    // move toc-ignore selectors from section div to header
-    $('div.section.toc-ignore')
-        .removeClass('toc-ignore')
-        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
-
-    // establish options
-    var options = {
-      selectors: "h1,h2",
-      theme: "bootstrap3",
-      context: '.toc-content',
-      hashGenerator: function (text) {
-        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
-      },
-      ignoreSelector: ".toc-ignore",
-      scrollTo: 0
-    };
-    options.showAndHide = true;
-    options.smoothScroll = true;
-
-    // tocify
-    var toc = $("#TOC").tocify(options).data("toc-tocify");
-});
-</script>
 
 <style type="text/css">
 
@@ -208,6 +274,12 @@ $(document).ready(function ()  {
 }
 }
 
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
 
 .toc-content {
   padding-left: 30px;
@@ -243,8 +315,6 @@ div.tocify {
 
 .tocify-subheader .tocify-item {
   font-size: 0.90em;
-  padding-left: 25px;
-  text-indent: 0;
 }
 
 .tocify .list-group-item {
@@ -253,6 +323,16 @@ div.tocify {
 
 
 </style>
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
 
 <!-- setup 3col/9col grid for toc_float and main content  -->
 <div class="row-fluid">
@@ -312,8 +392,8 @@ div.tocify {
 
 
 <p><br></p>
-<div id="expedition-team" class="section level1">
-<h1>Expedition Team</h1>
+<div id="b-207-m-expedition-team" class="section level1">
+<h1>2018 B-207-M Expedition Team</h1>
 <hr />
 <div id="anne-e.-todgham" class="section level2">
 <h2><strong>Anne E. Todgham</strong></h2>
@@ -322,25 +402,19 @@ div.tocify {
 <blockquote>
 <p>I am an environmental physiologist with an interest in understanding the molecular, biochemical and physiological mechanisms that underlie an animal’s capacity to cope with environmental change. I am fascinated by the diversity of physiological specializations (or strategies) used by animals to tolerate particular habitats that others would find very challenging. This interest has led my research to investigate how an animal’s physiology and environment interact to structure organismal stress tolerance. My current research program has an eye towards global climate change and addresses the general question of whether contemporary animals have the physiological flexibility necessary to buffer the unprecedented rates of environmental change, specifically their response to changes in multiple environmental variables. My research focuses mainly on aquatic organisms that are distributed along the Cal&gt;ifornia coast and estuaries (e.g. limpets, sea urchins, crabs, oysters and intertidal fishes), but extends to Antarctic fishes and aquaculture species.</p>
 </blockquote>
-<div class="figure">
-<img src="pictures/annepic.jpg" />
-
-</div>
+<p><img src="pictures/annepic.jpg" /></p>
 <hr />
 <p><br></p>
 </div>
 </div>
 <div id="ken-w.-zillig" class="section level2">
 <h2><strong>Ken W. Zillig</strong></h2>
-<div id="uc-davis-graduate-group-in-ecology-ph.d.candidate" class="section level3">
+<div id="uc-davis-graduate-group-in-ecology-ph.d.-candidate" class="section level3">
 <h3>UC Davis, Graduate Group in Ecology, Ph.D. Candidate</h3>
 <blockquote>
 <p>I am a fourth year in the Graduate Group in Ecology at UC Davis. My Ph.D. research revoles around interpopulation variation in Chinook salmon and how differences in the thermal biology between populations can contribute to conservation solutions. Generally, my work focuses on the role of temperature in structuring the physiology of fishes and subsequently their ecology. I especially intersted in species of conservation and commerical interest and improving the sustainability of fisheries resources. The dog’s name is Indiana, he unfortunatly can’t join us in the Antarctic.</p>
 </blockquote>
-<div class="figure">
-<img src="pictures/kenpic.JPG" />
-
-</div>
+<p><img src="pictures/kenpic.JPG" /></p>
 <hr />
 <p><br></p>
 </div>
@@ -352,10 +426,7 @@ div.tocify {
 <blockquote>
 <p>I am starting my second year of grad school in Dr. Todgham’s lab in the Animal Biology Graduate Group. My research interests lie in understanding how animals cope with anthropogenic stressors on the molecular, organismal, and ecological level. I am especially interested in polar and sub-polar species, because their adaptation to a stable, cold environment makes them particularly vulnerable to a warming climate. When I’m not studying the coolest fish out there, you can find me either climbing, doing yoga, or eating delicious food. I have always dreamt of researching Antarctic animals so I am thrilled to be joining team B-207 this field season! I’m looking forward to sharing our adventures with you all.</p>
 </blockquote>
-<div class="figure">
-<img src="pictures/mandypic.jpg" />
-
-</div>
+<p><img src="pictures/mandypic.jpg" /></p>
 <hr />
 <p><br></p>
 </div>
@@ -367,27 +438,15 @@ div.tocify {
 <blockquote>
 <p>As a 4th year undergraduate marine science major at UC Davis, fish physiology has constantly fascinated me. My primary research interest is to investigate the plasticity and physiological responses of fish to anthropogenic effects such as climate change, hydrologic modifications, and fishing practices. Understanding how vulnerable species will respond to current and projected conditions is critical to effectively mitigating stress. Because Antarctic fish have persisted in a relatively stable environment, studying how rapidly changing abiotic conditions impact a fish’s physiology is of great importance to our understanding of this unique marine ecosystem.</p>
 </blockquote>
-<div class="figure">
-<img src="pictures/andrewpic2.jpg" />
-
-</div>
+<p><img src="pictures/andrewpic2.jpg" /></p>
 <hr />
 <p><br></p>
 </div>
 </div>
-<div id="contact-us" class="section level2">
-<h2><strong>Contact Us</strong></h2>
-<p>We can all be contacted by mail at:</p>
-<blockquote>
-<p><em>Our Name</em> , B-207<br />
-PSC 769 Box 700<br />
-APO AP 96599-9998</p>
-</blockquote>
-<p>Note: Packages must be sent before Oct. 15<sup>th</sup> to ensure arrival. Flatmail usually takes ~5-7 days to arrive from the U.S.</p>
+<div id="contact" class="section level2">
+<h2><strong>Contact</strong></h2>
 <p>Email:<br />
-Ken W. Zillig: kwzillig (at) ucdavis.edu<br />
-Mandy J. Frazier: ajfrazier (at) ucdavis.edu<br />
-Andrew W. Naslund: awnaslund (at) ucdavis.edu</p>
+Ken W. Zillig: kwzillig (at) ucdavis.edu</p>
 </div>
 </div>
 
@@ -402,13 +461,56 @@ Andrew W. Naslund: awnaslund (at) ucdavis.edu</p>
 
 // add bootstrap table styles to pandoc tables
 function bootstrapStylePandocTables() {
-  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
 }
 $(document).ready(function () {
   bootstrapStylePandocTables();
 });
 
 
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
 </script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->

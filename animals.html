@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 
 <head>
 
 <meta charset="utf-8" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
 
-<title>animals.utf8.md</title>
+<title>animals.utf8</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -25,6 +25,17 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/anchor-sections-1.0/anchor-sections.css" rel="stylesheet" />
+<script src="site_libs/anchor-sections-1.0/anchor-sections.js"></script>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
 
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
@@ -86,7 +97,6 @@ code {
 }
 img {
   max-width:100%;
-  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -235,6 +245,7 @@ $(document).ready(function () {
   border: none;
   display: inline-block;
   border-radius: 4px;
+  background-color: transparent;
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li {
@@ -247,48 +258,9 @@ $(document).ready(function () {
 }
 </style>
 
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
-
 <!-- code folding -->
 
 
-
-<script>
-$(document).ready(function ()  {
-
-    // move toc-ignore selectors from section div to header
-    $('div.section.toc-ignore')
-        .removeClass('toc-ignore')
-        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
-
-    // establish options
-    var options = {
-      selectors: "h1,h2,h3",
-      theme: "bootstrap3",
-      context: '.toc-content',
-      hashGenerator: function (text) {
-        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
-      },
-      ignoreSelector: ".toc-ignore",
-      scrollTo: 0
-    };
-    options.showAndHide = true;
-    options.smoothScroll = true;
-
-    // tocify
-    var toc = $("#TOC").tocify(options).data("toc-tocify");
-});
-</script>
 
 <style type="text/css">
 
@@ -302,6 +274,12 @@ $(document).ready(function ()  {
 }
 }
 
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
 
 .toc-content {
   padding-left: 30px;
@@ -337,8 +315,6 @@ div.tocify {
 
 .tocify-subheader .tocify-item {
   font-size: 0.90em;
-  padding-left: 25px;
-  text-indent: 0;
 }
 
 .tocify .list-group-item {
@@ -442,7 +418,8 @@ div.tocify {
 </div>
 <div id="pagothenia-borchgrevinki-the-bald-notothen" class="section level3">
 <h3><em>Pagothenia borchgrevinki</em> The Bald Notothen</h3>
-<p><img src="pictures/bork.jpg" /> <br> <em>Pagothenia borchgrevinki</em>, affectionately referred to as ‘Borks’ are one of the most common species of fish out here. They are somewhat unique in that they are found very close to, if not immediately, underneath the sea ice. They grow to be about a foot long, and are a mottled black and silver.</p>
+<p><img src="pictures/bork.jpg" /> <br></p>
+<p><em>Pagothenia borchgrevinki</em>, affectionately referred to as ‘Borks’ are one of the most common species of fish out here. They are somewhat unique in that they are found very close to, if not immediately, underneath the sea ice. They grow to be about a foot long, and are a mottled black and silver.</p>
 <p>We conducted some experiments on juvenile borks which gather in large schools that seem to hang underneath the ice. The borks, proved highly trainable and associated the presence of a human to food and would all gather at the surface eagerly awaiting dinner time.</p>
 <hr />
 </div>
@@ -494,6 +471,13 @@ div.tocify {
 <div id="lycodichthys-dearborni---antarctic-eel-pout" class="section level3">
 <h3><em>Lycodichthys dearborni</em> - Antarctic Eel Pout</h3>
 <p><img src="pictures/eelpout.jpg" /> <br></p>
+</div>
+<div id="paraliparis-devriesi---snailfish" class="section level3">
+<h3><em>Paraliparis devriesi</em> - Snailfish</h3>
+<p>This little guy was pulled up from the depths. It was named after one Art Devries, a legend in Antarctic fish physiology. We were lucky enough to meet both the snailfish and its namesake during our time in Antarctica.</p>
+<p><img src="pictures/snailfish2.jpg" /></p>
+<hr />
+<p><img src="pictures/snailfish1.jpg" /></p>
 <hr />
 </div>
 </div>
@@ -509,7 +493,7 @@ div.tocify {
 <div id="pareledone-sp.---antarctic-octopus" class="section level3">
 <h3><em>Pareledone sp.</em> - Antarctic Octopus</h3>
 <p><img src="pictures/Octopus_1.jpg" /></p>
-<p>Everyone love’s an octopus. This one has been named Oscar by the Crary Lab Staff. It is being housed in a seperate enclosed tank as Octopus are known escape artists that will crawl out of their tanks or down drain pipes.</p>
+<p>Everyone loves an octopus. This one has been named Oscar by the Crary Lab Staff. It is being housed in a seperate enclosed tank as Octopus are known escape artists that will crawl out of their tanks or down drain pipes.</p>
 <hr />
 <p><br></p>
 </div>
@@ -555,19 +539,23 @@ div.tocify {
 </div>
 <div id="stercorarius-maccormicki---south-polar-skua" class="section level3">
 <h3><em>Stercorarius maccormicki</em> - South Polar Skua</h3>
-<p>The skua was the last of the three ‘common’ (read “only”) birds to be seen at Ross Island. Skuas are large, predatory, seabirds which target young penguin chicks or researchers carrying food across McMurdo.</p>
-<p><img src="pictures/SKUA%201.jpg" /> ***</p>
+<p>The skua is the last of the three ‘common’ (read “only”) birds to be seen at Ross Island. Skuas are large, predatory, seabirds which target young penguin chicks or researchers carrying food across McMurdo station.</p>
+<p><img src="pictures/SKUA%201.jpg" /></p>
+<hr />
 <p><img src="pictures/SKUA%202.jpg" /></p>
-<p>These pictures were taken of a Skua on the Hut Point Trail outside of McMurdo Station. ***</p>
+<p>These pictures were taken of a Skua on the Hut Point Trail outside of McMurdo Station.</p>
+<hr />
 </div>
 </div>
 <div id="mammals" class="section level2">
 <h2><strong>Mammals</strong></h2>
-<p>###<em>Leptonychotes weddellii</em> - Weddell Seal</p>
+<div id="leptonychotes-weddellii---weddell-seal" class="section level3">
+<h3><em>Leptonychotes weddellii</em> - Weddell Seal</h3>
 <p><img src="pictures/Weddell%20Seal_1.jpg" /></p>
 <hr />
-<p>Aside from the humans there is only one mammal out here. The Weddell Seal. They are about 10ft long and will be pupping throughout the time we are hear. Keep posted for pictures of baby seals.</p>
+<p>Aside from the humans there is only one mammal out here. The Weddell Seal. They are about 10ft long and will be pupping throughout the time we are here.</p>
 <p><br></p>
+</div>
 </div>
 </div>
 
@@ -582,13 +570,56 @@ div.tocify {
 
 // add bootstrap table styles to pandoc tables
 function bootstrapStylePandocTables() {
-  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
 }
 $(document).ready(function () {
   bootstrapStylePandocTables();
 });
 
 
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
 </script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->

@@ -14,7 +14,7 @@ output:
 ## Temperature Preference
 ### *Ken Zillig*
 
-One of the experiments we conducted on the side was a temperature preference trial of juvenile *bernacchiis*. We used the 'Annular Temperature Preference Apparatus' or TPA to expose a fish to a spectrum of water temperatures. As the name suggest, this ring-shaped device allows a fish to experience and select water of different temperatures to hang out or to avoid. The fish is recored for 2-3 hours via overhead camera. We then use the video to determine position of the fish, and at which locations (and therefore) temperatures the fish prefers. 
+One of the experiments we conducted on the side was a temperature preference trial of juvenile *bernacchiis*. We used the 'Annular Temperature Preference Apparatus' or TPA to expose a fish to a spectrum of water temperatures. As the name suggest, this ring-shaped device allows a fish to experience and select water of different temperatures to hang out or to avoid. The fish is recorded for 2-3 hours via overhead camera. We then use the video to determine position of the fish, and at which locations (and therefore) temperatures the fish prefers. 
 
 We had two rings which Andrew and I had to calibrate daily. The calibration alone would take hours as we measured the temperature of each ring at 144 locations. 
 

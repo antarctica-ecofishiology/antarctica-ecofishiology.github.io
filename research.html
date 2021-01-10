@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 
 <head>
 
 <meta charset="utf-8" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
 
-<title></title>
+<title>research.utf8</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -25,6 +25,17 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/anchor-sections-1.0/anchor-sections.css" rel="stylesheet" />
+<script src="site_libs/anchor-sections-1.0/anchor-sections.js"></script>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
 
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
@@ -72,9 +83,7 @@ h6 {
 </style>
 
 
-</head>
 
-<body>
 
 <style type = "text/css">
 .main-container {
@@ -88,13 +97,18 @@ code {
 }
 img {
   max-width:100%;
-  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
 }
+.html-widget {
+  margin-bottom: 20px;
+}
 button.code-folding-btn:focus {
   outline: none;
+}
+summary {
+  display: list-item;
 }
 </style>
 
@@ -110,7 +124,6 @@ body {
   padding-top: 65px;
   margin-top: -65px;
 }
-
 .section h2 {
   padding-top: 65px;
   margin-top: -65px;
@@ -130,6 +143,43 @@ body {
 .section h6 {
   padding-top: 65px;
   margin-top: -65px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
 }
 </style>
 
@@ -151,47 +201,66 @@ $(document).ready(function () {
 });
 </script>
 
-
-<div class="container-fluid main-container">
-
 <!-- tabsets -->
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-</script>
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
 
 <!-- code folding -->
 
 
-
-
-<script>
-$(document).ready(function ()  {
-
-    // move toc-ignore selectors from section div to header
-    $('div.section.toc-ignore')
-        .removeClass('toc-ignore')
-        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
-
-    // establish options
-    var options = {
-      selectors: "h1,h2,h3,h4",
-      theme: "bootstrap3",
-      context: '.toc-content',
-      hashGenerator: function (text) {
-        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
-      },
-      ignoreSelector: ".toc-ignore",
-      scrollTo: 0
-    };
-    options.showAndHide = true;
-    options.smoothScroll = true;
-
-    // tocify
-    var toc = $("#TOC").tocify(options).data("toc-tocify");
-});
-</script>
 
 <style type="text/css">
 
@@ -205,6 +274,12 @@ $(document).ready(function ()  {
 }
 }
 
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
 
 .toc-content {
   padding-left: 30px;
@@ -240,8 +315,6 @@ div.tocify {
 
 .tocify-subheader .tocify-item {
   font-size: 0.90em;
-  padding-left: 25px;
-  text-indent: 0;
 }
 
 .tocify .list-group-item {
@@ -250,6 +323,16 @@ div.tocify {
 
 
 </style>
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
 
 <!-- setup 3col/9col grid for toc_float and main content  -->
 <div class="row-fluid">
@@ -311,9 +394,19 @@ div.tocify {
 <p><br></p>
 <div id="research-updates" class="section level1">
 <h1>Research Updates</h1>
+<div id="temperature-preference" class="section level2">
+<h2>Temperature Preference</h2>
+<div id="ken-zillig" class="section level3">
+<h3><em>Ken Zillig</em></h3>
+<p>One of the experiments we conducted on the side was a temperature preference trial of juvenile <em>bernacchiis</em>. We used the ‘Annular Temperature Preference Apparatus’ or TPA to expose a fish to a spectrum of water temperatures. As the name suggest, this ring-shaped device allows a fish to experience and select water of different temperatures to hang out or to avoid. The fish is recorded for 2-3 hours via overhead camera. We then use the video to determine position of the fish, and at which locations (and therefore) temperatures the fish prefers.</p>
+<p>We had two rings which Andrew and I had to calibrate daily. The calibration alone would take hours as we measured the temperature of each ring at 144 locations.</p>
+<p><img src="pictures/TPA2.jpg" /></p>
+<p>A view down upon the TPA. Water is deliverd to each wedge via the blue tubes. Water then drains in the middle. Due to how the ring is designed each wedge maintains a very stable temperature value.</p>
+</div>
+</div>
 <div id="cape-evans-ice-wall" class="section level2">
 <h2>Cape Evans Ice Wall</h2>
-<div id="ken-zillig" class="section level4">
+<div id="ken-zillig-1" class="section level4">
 <h4><em>10.30.18 - Ken Zillig</em></h4>
 <p>After much delay, we hvemade our fist foray out onto the sea ice proper. Today we traveled ~16 miles across frozen ocean to the Cape Evans Ice Wall, where we would drill a dive hole and put up a fish hut. OUr caravan out to the site includ three PistenBullies, one containing the divers, one containing a carpentry team and the last carrying ourselves. Following us was a Challngere catepillar tractor which towed, on a giant sled, a fish hut, a snow plow and a massive ice auger. Once at the site, the drill team ereeted teh auger and cored a 4ft wide hole through 6 feet of ice to the ocean below. Afterwhich we slid the fish hut over top and set about preparing for the dive team to go down and collect fish for us.</p>
 <p>The divers stay down for 45-50 minutes and net us as many juvenile <em>T. bernachii</em> as they can. Each fish is about an inch and a hlaf long and the divers emerge towing plastic bags containing 50-100 of them. THe fis are then trasnported into an ingloo cooler (the kind NFL plauers use for water) which is aerated and filled with sea water. Trasnferring the fish is a very delicate process a the presecence of the ice crystals or extended periods in air will overcome the fish’s natural anti-freeze and induce a rapid snap freezing of their entire bodies. Freat care is taken to prevent this from happening.</p>
@@ -322,17 +415,11 @@ div.tocify {
 </div>
 <div id="set-up" class="section level2">
 <h2>Set-Up</h2>
-<div id="ken-zillig-1" class="section level4">
+<div id="ken-zillig-2" class="section level4">
 <h4><em>10.24.18 ~ Ken Zillig</em></h4>
 <p>Everyday since we arrived we have been working to set-up our experimental treatments. We are seeking to understand how fish (<em>T. bernachii</em> in particular) will respond physiologically to the climate conditions of the future. To do so we have to construct and establish tiny little ocean’s of our own that reflect potential future cliamte conditions. We do this in two ways, first we control the temperature of the water. In the picture below, each of the four large square tanks is at a specific temperature. Two are at -1°C and the other two are at 2°C. This represents the current temeprature (-1°C) and a water temperature under future climate conditions (2°C). We also expose the water to three different concentrations of CO<sub>2</sub>. This can be seen by the different colored tubes running to into the buckets. Each color tube containes a precisely measured mixture of CO<sub>2</sub> and air that is then dissovled into seawater and pumped into the buckets. The three CO<sub>2</sub> concentrations reflect the current CO<sub>2</sub> conditions (green: 450 µatm), a future where greenhouse gas emissions and CO<sub>2</sub> are brought under control (yellow: 850 µatm), and a future where CO<sub>2</sub> emissions remain unchecked (red: 1200 µatm). This experimetnal set-up leads to 6 treatment groups.</p>
-<div class="figure">
-<img src="pictures/tank%20set-up%202..jpg" />
-
-</div>
-<div class="figure">
-<img src="pictures/dive%20hole.jpg" />
-
-</div>
+<p><img src="pictures/tank%20set-up%202..jpg" /></p>
+<p><img src="pictures/dive%20hole.jpg" /></p>
 <p>Once the system equillibrates and we verify that the concentrations of CO<sub>2</sub> then we will begin adding fish to the buckets. The fish will begin to adjust their physiology to these new environemtnal conditions. This <strong>acclimation</strong> will occur over days to weeks and involves changes in the proteins a fish is producing, how it regulates salt concentrations, how it allocates energey resources and even how its behaves. Increase in temperature may be stressful and a fish may respond in all sorts of ways. It may be less active to conserve energy or it may seek out prey and eat more readily. The fish may also produce proteins that protect its cells and tissues from heat stress. Increasing CO<sub>2</sub> increase the acidity of the ocean. Increasing acidity has been shown to interfere with the brain chemistry in other fish species, leading to strange behavioral response. Furthermore, how these two factors (CO<sub>2</sub> and temperature) interact is poorly understood, and research has shown that organisms often respond to multiple stressful condtiions in strange and counter-intuitive ways. Over the course of our project fish will be housed continually at the above conditions. We will then, every week, collect data on their behavior, metabolism, and cellular physiology. This process should enable us to capture the physiological and behavioral changes that occur as a fish acclimates to future climate conditions. Our research will attempt to answer questions accross many aspects of fish physiology and behavior, with the hope of understanding more how future climate conditions (temperature and dissolved CO<sub>2</sub>) will affect the sensitive fish of McMurdo Sound and the Antarctic.</p>
 <hr />
 <hr />
@@ -340,7 +427,7 @@ div.tocify {
 </div>
 <div id="what-is-our-research" class="section level2">
 <h2>What is Our Research?</h2>
-<div id="ken-zillig-2" class="section level4">
+<div id="ken-zillig-3" class="section level4">
 <h4><em>9.18.18 ~ Ken Zillig</em></h4>
 <p>The climate is changing. Anthropogenic uses of fossil fuels have produced carbon emissions that have increased the insulating capacity of the atmosphere. In essence wrapping the planet in a sweater that traps heat near the surface. These changes are having large influences around the globe and are making themselves more and more apparent, such as warmer winters, hotter summers, stronger fires and irregular weather patterns. However, less apparent is the effect that CO<sub>2</sub> is having on the oceans.<br />
 <br> In the ocean, CO<sub>2</sub> has two effects. One is the increasing of ocean surface temperatures similar to increasing surface temperatures elsewhere (AKA climate change). The other effect is more difficult to observe. CO<sub>2</sub> is dissolving into the oceans and turning the ocean more acidic (AKA ocean acidification). This change is slight but can have profound impacts on sea life.<br />
@@ -364,13 +451,56 @@ div.tocify {
 
 // add bootstrap table styles to pandoc tables
 function bootstrapStylePandocTables() {
-  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
 }
 $(document).ready(function () {
   bootstrapStylePandocTables();
 });
 
 
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3,h4",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
 </script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
